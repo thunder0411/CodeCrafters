@@ -1,0 +1,313 @@
+body {
+    font-family: "Concert One",serif;
+    font: size 100px;
+    background-color: white;
+}
+.dm-serif-text-regular {
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .concert-one-regular {
+    font-family: "Concert One", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  
+  .dm-serif-text-regular-italic {
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+.body {
+    margin: 0;
+  }
+.products{
+    background-color: #c1c0c0cd;
+}
+.logo-container {
+    position: absolute;
+    top:40px; /* Adjust as needed */
+    left: 30px; /* Adjust as needed */
+    width:100px;
+    height:75px;
+}
+.trending{
+    background-color: #9e9e9ef6;
+    font-family: Arial, sans-serif;
+}
+.trending-card{
+    font-family:Arial, sans-serif;
+    font-size: large;
+    background-color: #333;
+}
+.logo {
+    width:100px; 
+    height:100px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #333;
+    color: #fff;
+    padding: 1rem 2rem;
+    position: sticky;
+    top: 0; /* Sticks the navbar to the top of the screen */
+    z-index: 1000; /* Ensures the navbar stays above other content */
+}
+
+.header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.nav-links a:hover,
+.nav-links .button {
+    background: #ff6200;
+}
+
+.hero {
+    background: url('images/1.png') no-repeat center center/cover;
+    color: #332f35e1;
+    text-align: center;
+    padding: 5rem 2rem;
+    font-family: "Concert One", serif;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background: #ff6200;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.cta-button:hover {
+    background: #e55b00;
+}
+
+.about, .products, .customize {
+    padding: 2rem;
+    text-align: center;
+}
+.sport-card {
+    display: flex; /* Arrange images horizontally */
+    overflow-x: auto; /* Enable horizontal scrolling */
+    white-space: nowrap; /* Prevent images from wrapping to the next line */
+    scroll-behavior: smooth; /* Optional: smooth scrolling effect */
+}
+
+.sport-card img {
+    flex-shrink: 0; /* Prevent images from shrinking */
+    width: 300px; /* Set image width */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 10px; /* Add spacing between images */
+    border-radius: 8px; /* Optional: rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: shadow for images */
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    margin: 2rem 0;
+}
+
+.product-card {
+    background: #f4f4f4;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.customize{
+    background-color: #bbb7b7;
+    padding:1rem ;
+}
+.customization-form {
+    display:flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 1000px;
+    max-height: 700px;
+    margin: 0 auto;
+}
+
+.customization-form input,
+.customization-form select,
+.customization-form button {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+/* Sports Section */
+.sports {
+    padding: 2rem;
+    text-align: center;
+}
+
+.sports-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+.sport-card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.sport-card img {
+    width: 100%;
+    display: block;
+}
+
+.sport-link {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #ff6200;
+    color: white;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.sport-link:hover {
+    background: #e55b00;
+}
+
+/* Trending Section */
+.trending {
+    padding: 2rem;
+    text-align: center;
+}
+
+.trending-grid {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+.trending-card {
+    text-align: center;
+    padding: 1rem;
+    background: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.trending-card img {
+    width: 100%;
+    max-width: 200px;
+    margin-bottom: 1rem;
+}
+.product-card{
+    width: 100;
+    height: 100;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.8rem;
+}
+
+.container {
+    max-width: 600px;
+    margin: 2rem auto;
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.form-group input:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.form-group button {
+    width: 100%;
+    padding: 0.8rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.form-group button:hover {
+    background-color: #0056b3;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.footer a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
